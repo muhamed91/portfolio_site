@@ -12,9 +12,15 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "clean-css": "^4.2.1",
     "fslightbox": "^3.0.4",
     "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
     "parcel-bundler": "^1.12.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglifycss": "^1.1.0"
+  }
 }
